@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'dogica';
+    src: url('dogica.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'pixel';
+    src: url('hihi.ttf') format('truetype');
+}
+
+a {
+    color: white;
+}
+pre {
+    font-family: 'pixel';
+    -webkit-font-smoothing: none;
+    font-smooth: never;
+  color: darkcyan;
+
+  text-shadow: 10px 10px 10px black;
+}
+
+.red {
+    color: #990000;
+}
+
+.green {
+    color: #009900;
+}
+
+canvas {
+    display: block;
+    background: black;
+    position: fixed;
+    z-index: -1;
+}
+
+#content {
+    position: absolute;
+}
+
+.container {
+    min-height: 85vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    vertical-align: middle;
+}
+button {
+    margin-top:610px;
+text-align:center;
+font-family: 'dogica';
+color: darkred;
+background: darkcyan;
+border: 1px solid black;
+border-radius: 20px;
+box-shadow: 5px 5px 5px black;
+text-shadow:#00e029;
+font-size: 30px;
+}
+a {
+    color: darkred;
+}
+body{
+background-image: url("shesh.png");
+}

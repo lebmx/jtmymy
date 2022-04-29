@@ -1,0 +1,40 @@
+
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#canvas1 {
+	width: 800px;
+	height: 500px;
+	border: 4px solid black;
+	background: linear-gradient(to bottom, lightblue, blue, darkblue, black);
+}
+
+button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: lightblue;
+	margin: 30px;
+	border-width: 4px;
+	transform: scale(1.4);
+	border-color: blue;
+}
+
+button:hover {
+	color: blue;
+	transform: scale(1.7);
+	transition: all ease .5s;
+}
